@@ -7,16 +7,16 @@
 - **Problem/Functionality**: This project aims to provide an engaging and educational game where players can answer trivia questions to win virtual money. It simulates the experience of the TV show by including lifelines and increasing difficulty levels.
 
 ### 1.2. Scope:
-- **Boundaries**: The project will focus on implementing the core game mechanics of "Who Wants to Be a Millionaire" as a command-line interface (CLI) game.
+- **Boundaries**: The project will focus on implementing the core game mechanics of "Who Wants to Be a Millionaire" as a 
 - **Included Features**:
   - Displaying questions and answer options
   - Accepting user input for answers
   - Implementing lifelines (50-50, Flip-The-Question, Double-Dip, Skip-Question)
   - Tracking the user's progress and winnings
 - **Excluded Features**:
-  - Advanced graphical user interface (GUI)
-  - Online multiplayer functionality
   - Phone-a-Friend and Ask-the-Audience lifelines
+- **Additional Features**:
+   - Multiplayer support (locally)
 
 ## 2. Functional Requirements
 
@@ -41,15 +41,3 @@
   - Mongoose for MongoDB interaction
   - Readline-sync for handling CLI user input
 
-## File Structure
-
-/millionaire-game
-|-- /models
-| |-- question.js
-|-- /scripts
-| |-- addQuestions.js
-| |-- playGame.js
-|-- /config
-| |-- db.js
-|-- package.json
-|-- README.md
